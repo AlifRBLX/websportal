@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+    .button-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.button-card a {
+    transition: color 0.3s, text-shadow 0.3s;
+}
+.button-card a:hover {
+    color: #ffcc00;
+    text-shadow: 0 0 8px #ffcc00;
+}
+
+        /* Reset & base */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Roboto', sans-serif; background: #0f2027; background: linear-gradient(to right, #2c5364, #203a43, #0f2027); color: #fff; }
+
+        header { text-align: center; padding: 40px 20px; }
+        header h1 { font-size: 3rem; letter-spacing: 2px; color: #ffcc00; text-shadow: 2px 2px 5px #000; }
+        header p { margin-top: 10px; font-size: 1.2rem; color: #ccc; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto; }
+
+        .button-card { background: rgba(255, 255, 255, 0.05); border-radius: 15px; padding: 20px; text-align: center; transition: transform 0.3s, background 0.3s; cursor: pointer; }
+        .button-card:hover { transform: translateY(-5px); background: rgba(255, 255, 255, 0.15); }
+        .button-card a { color: #fff; text-decoration: none; font-weight: bold; font-size: 1rem; display: block; }
+
+        .button-card a span { display: block; margin-top: 10px; font-size: 0.8rem; color: #aaa; }
+
+        footer { text-align: center; padding: 20px; font-size: 0.9rem; color: #aaa; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Website Portal</h1>
+        <p>First version of the Website Portal</p>
+    </header>
+<div style="text-align:center; margin-bottom: 30px;">
+    <input type="text" id="searchBar" placeholder="Look for sites" style="padding: 10px 15px; width: 80%; max-width: 400px; border-radius: 10px; border: none; font-size: 1rem;">
+</div>
+
+    <div class="grid">
+        <div class="button-card"><a href="https://www.google.com" target="_blank">Google<span>Search Engine</span></a></div>
+        <div class="button-card"><a href="https://www.youtube.com" target="_blank">YouTube<span>Videos & Entertainment</span></a></div>
+        <div class="button-card"><a href="https://www.facebook.com" target="_blank">Facebook<span>Social Media</span></a></div>
+        <div class="button-card"><a href="https://www.twitter.com" target="_blank">Twitter<span>Social Media</span></a></div>
+        <div class="button-card"><a href="https://www.instagram.com" target="_blank">Instagram<span>Photos & Social</span></a></div>
+        <div class="button-card"><a href="https://www.linkedin.com" target="_blank">LinkedIn<span>Professional Network</span></a></div>
+        <div class="button-card"><a href="https://www.reddit.com" target="_blank">Reddit<span>Discussion & News</span></a></div>
+        <div class="button-card"><a href="https://www.wikipedia.org" target="_blank">Wikipedia<span>Knowledge Base</span></a></div>
+        <div class="button-card"><a href="https://www.netflix.com" target="_blank">Netflix<span>Streaming</span></a></div>
+        <div class="button-card"><a href="https://www.spotify.com" target="_blank">Spotify<span>Music</span></a></div>
+        <div class="button-card"><a href="https://www.github.com" target="_blank">GitHub<span>Code Hosting</span></a></div>
+        <div class="button-card"><a href="https://www.stackoverflow.com" target="_blank">StackOverflow<span>Programming Q&A</span></a></div>
+        <div class="button-card"><a href="https://www.amazon.com" target="_blank">Amazon<span>Shopping</span></a></div>
+        <div class="button-card"><a href="https://www.ebay.com" target="_blank">eBay<span>Shopping</span></a></div>
+        <div class="button-card"><a href="https://www.twitch.tv" target="_blank">Twitch<span>Gaming Streams</span></a></div>
+        <div class="button-card"><a href="https://www.discord.com" target="_blank">Discord<span>Chat & Community</span></a></div>
+        <div class="button-card"><a href="https://www.trello.com" target="_blank">Trello<span>Project Management</span></a></div>
+        <div class="button-card"><a href="https://www.medium.com" target="_blank">Medium<span>Articles & Blogs</span></a></div>
+        <div class="button-card"><a href="https://www.quora.com" target="_blank">Quora<span>Questions & Answers</span></a></div>
+        <div class="button-card"><a href="https://www.paypal.com" target="_blank">PayPal<span>Payments</span></a></div>
+        <div class="button-card"><a
+ href="https://www.microsoft.com" target="_blank">Microsoft<span>Tech & Software</span></a></div>
+<div class="button-card"><a href="https://www.apple.com" target="_blank">Apple<span>Tech & Devices</span></a></div>
+<div class="button-card"><a href="https://www.netflix.com" target="_blank">Netflix<span>Streaming</span></a></div>
+<div class="button-card"><a href="https://www.hulu.com" target="_blank">Hulu<span>Streaming</span></a></div>
+<div class="button-card"><a href="https://www.adobe.com" target="_blank">Adobe<span>Creative Software</span></a></div>
+<div class="button-card"><a href="https://www.spotify.com" target="_blank">Spotify<span>Music Streaming</span></a></div>
+<div class="button-card"><a href="https://www.soundcloud.com" target="_blank">SoundCloud<span>Music & Audio</span></a></div>
+<div class="button-card"><a href="https://www.zoom.us" target="_blank">Zoom<span>Video Conferencing</span></a></div>
+<div class="button-card"><a href="https://www.slack.com" target="_blank">Slack<span>Team Chat</span></a></div>
+<div class="button-card"><a href="https://www.etsy.com" target="_blank">Etsy<span>Shopping & Crafts</span></a></div>
+<div class="button-card"><a href="https://www.airbnb.com" target="_blank">Airbnb<span>Travel & Rentals</span></a></div>
+<div class="button-card"><a href="https://www.booking.com" target="_blank">Booking.com<span>Travel & Hotels</span></a></div>
+<div class="button-card"><a href="https://www.khanacademy.org" target="_blank">Khan Academy<span>Education</span></a></div>
+<div class="button-card"><a href="https://www.coursera.org" target="_blank">Coursera<span>Online Courses</span></a></div>
+<div class="button-card"><a href="https://www.udemy.com" target="_blank">Udemy<span>Online Courses</span></a></div>
+<div class="button-card"><a href="https://www.tiktok.com" target="_blank">TikTok<span>Short Videos</span></a></div>
+<div class="button-card"><a href="https://www.pinterest.com" target="_blank">Pinterest<span>Ideas & Inspiration</span></a></div>
+<div class="button-card"><a href="https://www.yelp.com" target="_blank">Yelp<span>Reviews & Local</span></a></div>
+<div class="button-card"><a href="https://www.chatgpt.com" target="_blank">IMDb<span>Movies & TV</span></a></div>
+<div class="button-card"><a href="https://www.chatgpt.com" target="_blank">ChatGPT<span>AI</span></a></div>
+
+
+    <footer>
+        &copy; 2025 Website Portal. All rights reserved.
+    </footer>
+
+</body>
+</html>
+<script>
+    const searchBar = document.getElementById('searchBar');
+    const buttons = document.querySelectorAll('.button-card');
+
+    searchBar.addEventListener('input', function() {
+        const query = this.value.toLowerCase();
+        buttons.forEach(btn => {
+            const text = btn.textContent.toLowerCase();
+            btn.style.display = text.includes(query) ? 'block' : 'none';
+        });
+    });
+</script>
